@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TakePhotoApp</string>
+    <string name="take_image">Take image</string>
+    <string name="send_image">send image</string>
+    <string name="select_gallery_image">Select gallery-image</string>
+    <string name="take_a_shot_app">TAKE A SHOT APP!!!</string>
+    <string name="image">image</string>
+    <string name="imagePreview">imagePreview</string>
+</resources>
