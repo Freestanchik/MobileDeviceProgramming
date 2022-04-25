@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity() {
         binding.sendImageButton.setOnClickListener {
             val i = Intent(Intent.ACTION_SEND)
             i.type = "text/plain"
-            i.putExtra(Intent.EXTRA_SUBJECT, "КПП НАИ-196 БигунН")
+            i.putExtra(Intent.EXTRA_SUBJECT, "КПП НАИ-196 Бигун")
             i.putExtra(Intent.EXTRA_STREAM, latestTmpUri)
             startActivity(i)
         }
@@ -60,7 +60,7 @@ class MainActivity : AppCompatActivity() {
     private fun selectImageFromGallery() = takeImageFromGalleryLauncher.launch("image/*")
 
     private fun getTmpFileUri(): Uri {
-        val tmpFile = File.createTempFile("tmp_img_file", ".png", cacheDir).apply {
+        val tmpFile = File.createTempFile("tmp_image_file", ".png", cacheDir).apply {
             createNewFile()
             deleteOnExit()
         }
