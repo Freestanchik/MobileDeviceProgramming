@@ -13,7 +13,7 @@ activity: <b>GameActivity</b>, где и будет реализован вес�
 <img src="https://github.com/Freestanchik/MobileDeviceProgramming/blob/main/lab3/img/screenshot1.jpg" width="200">
 По нажатию на кнопку <b>Take image</b> появляется возможность сделать фото, после чего его можно увидеть над кнопками:
 <img src="https://github.com/Freestanchik/MobileDeviceProgramming/blob/main/lab3/img/screenshot2.jpg" width="200">
-По нажатию на кнопку <b>Take image</b> появляется возможность сделать фото, после чего его можно увидеть над кнопками:
+По нажатию на кнопку <b>Send image</b> появляется возможность выбрать приложение, с помощью которого следует отправить фото:
 <img src="https://github.com/Freestanchik/MobileDeviceProgramming/blob/main/lab3/img/screenshot3.jpg" width="200">
 Выбрав <b>Gmail</b>, пользователь переходит к письму, к которому прикреплено его фото. Потом письмо можно отправить:
 <img src="https://github.com/Freestanchik/MobileDeviceProgramming/blob/main/lab3/img/screenshot4.jpg" width="200">
