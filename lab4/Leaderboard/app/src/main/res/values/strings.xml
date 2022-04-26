@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Leaderboard</string>
+    <string name="add">Add leader</string>
+    <string name="remove">Remove leader</string>
+    <string name="clear">Clear list</string>
+    <string name="score">Score</string>
+    <string name="name">Name</string>
+</resources>
