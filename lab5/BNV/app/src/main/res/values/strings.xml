@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BNV</string>
+    <string name="game">Game</string>
+    <string name="leaderboard">LeaderBoard</string>
+    <string name="profile">Profile</string>
+    <string name="game_will_be_here_soon">Game will be here soon! :(</string>
+    <string name="leaderboard_will_be_here_soon">Leaderboard will be here soon! :(</string>
+    <string name="profile_will_be_here_soon">Profile will be here soon! :(</string>
+    <string name="game_picture">game picture</string>
+    <string name="leaderboard_picture">leaderboard picture</string>
+    <string name="profile_picture">profile picture</string>
+</resources>
