@@ -28,6 +28,7 @@ class MainActivity : AppCompatActivity() {
         binding.list.adapter = adapter
         binding.list.layoutManager = GridLayoutManager(this, 4)
         adapter.submitList(null)
+
         var i = 0
         while (i != 32) {
             val value = Random.nextInt(1, 99)
@@ -35,6 +36,7 @@ class MainActivity : AppCompatActivity() {
             list.add(Circle(value, color))
             i++
         }
+
         adapter.submitList(list.toList())
 
     }

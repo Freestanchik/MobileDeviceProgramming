@@ -15,7 +15,7 @@ class CirclesRecyclerAdapter(
     private val inflater: LayoutInflater,
     private val onClick: (MainActivity.Circle) -> Unit,
 ) :
-    ListAdapter<MainActivity.Circle, CirclesRecyclerAdapter.ViewHolder>(UserDiffCallback) {
+    ListAdapter<MainActivity.Circle, CirclesRecyclerAdapter.ViewHolder>(CircleDiffCallback) {
 
     class ViewHolder(
         view: View,
@@ -46,11 +46,11 @@ class CirclesRecyclerAdapter(
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        val user = getItem(position)
-        holder.bind(user)
+        val circle = getItem(position)
+        holder.bind(circle)
     }
 
-    object UserDiffCallback : DiffUtil.ItemCallback<MainActivity.Circle>() {
+    object CircleDiffCallback : DiffUtil.ItemCallback<MainActivity.Circle>() {
         override fun areItemsTheSame(
             oldItem: MainActivity.Circle,
             newItem: MainActivity.Circle,
