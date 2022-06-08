@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">NotificationApp</string>
+    <string name="you_are_in_main_activity">You are in Main activity!</string>
+</resources>
